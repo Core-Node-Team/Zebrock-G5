@@ -20,9 +20,9 @@
 
 https://explorer.corenodehq.xyz/Zenrock-Testnet/staking
 
-https://zenrock-api.corenodehq.xyz
+https://zenrock-g5-api.corenodehq.xyz
 
-https://zenrock-rpc.corenodehq.xyz
+https://zenrock-g5-rpc.corenodehq.xyz
 
 ## 💻 Sistem Gereksinimleri
 | Bileşenler | Minimum Gereksinimler | 

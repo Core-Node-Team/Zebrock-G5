@@ -165,8 +165,8 @@ sed -i -e "/^\[p2p\]/,/^\[/{s/^[[:space:]]*seeds *=.*/seeds = \"$SEEDS\"/}" \
 ### 🚧Snap
 ```
 zenrockd tendermint unsafe-reset-all --home $HOME/.zrchain
-if curl -s --head curl http://37.120.189.81/zenrock_testnet/zenrock_snap.tar.lz4 | head -n 1 | grep "200" > /dev/null; then
-  curl http://37.120.189.81/zenrock_testnet/zenrock_snap.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.zrchain
+if curl -s --head curl http://37.120.189.81/zenrock_testnet/zenrock_testnet_snap.tar.lz4 | head -n 1 | grep "200" > /dev/null; then
+  curl http://37.120.189.81/zenrock_testnet/zenrock_testnet_snap.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.zrchain
     else
   echo "no snapshot found"
 fi
